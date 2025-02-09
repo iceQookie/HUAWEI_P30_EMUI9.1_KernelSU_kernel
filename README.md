@@ -1,0 +1,1 @@
+# HUAWEI_P30_EMUI9.1_KernelSU_kernel
