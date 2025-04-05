@@ -49,7 +49,7 @@ jobs:
           echo "No Config,good."
          fi
   
-         
+         curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.2
          export PATH=$(pwd)/root/aarch64-linux-android-4.9/bin/:$PATH
          export ARCH=arm64
          export CROSS_COMPILE=aarch64-linux-android-
